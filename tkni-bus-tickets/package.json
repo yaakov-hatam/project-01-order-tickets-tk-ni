@@ -1,0 +1,43 @@
+{
+  "name": "tkni-bus-tickets",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.5",
+    "bootstrap": "^4.3.1",
+    "firebase": "^7.0.0",
+    "font-awesome": "^4.7.0",
+    "json-server": "^0.15.1",
+    "react": "^16.9.0",
+    "react-date-picker": "^7.8.2",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.2",
+    "react-with-firebase-auth": "^1.0.4",
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server --watch public/db.json --port 3001"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
